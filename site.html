@@ -7,6 +7,9 @@
         <link rel="icon" href="imgs/calendario-icon.png">
 
         <style>
+            html, body{
+                min-height: 100%;
+            }
 
             body{
                 text-align: center;
@@ -16,13 +19,23 @@
             }
 
             table {
-                margin: auto;
+                margin: 250px auto auto auto;
                 border-collapse: collapse;
+                background-color: rgb(255, 255, 255, 0.7);
+            }
+            
+            caption{
+                color: azure;
             }
 
             td, tbody, thead, tfoot{
                 border: 2px solid black;
                 margin: 3px 5px 3px 5px;
+            }
+            img {
+                display: inline-block;
+                margin-top: auto;
+                margin-bottom: auto;
             }
 
         </style>
@@ -30,6 +43,7 @@
     </head>
     <body>
         <h1>Horario das Aulas</h1>
+
 
         <table>
             <caption>Horario das Aulas - Ensino Médio</caption>
@@ -46,7 +60,7 @@
 
                     <td rowspan="2"><img src="imgs/portugues.png"> <a href="https://fegemo.github.io/cefet-front-end">Português</a></td>
                         
-                    <td rowspan="2"><a href="https://fegemo.github.io/cefet-front-end">Historia</a></td>
+                    <td rowspan="2"><img src="imgs/historia.png"><a href="https://fegemo.github.io/cefet-front-end">Historia</a></td>
 
                     <td rowspan="2"><img src="imgs/portugues.png"> <a href="https://fegemo.github.io/cefet-front-end">Português</a></td>
 
