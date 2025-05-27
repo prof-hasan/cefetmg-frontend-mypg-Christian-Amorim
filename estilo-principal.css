@@ -1,0 +1,82 @@
+html, body{
+    min-height: 100%;
+}
+
+body{
+    text-align: center;
+    background-image: url(imgs/fundo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+table {
+    margin: 130px auto auto auto;
+    border-collapse: collapse;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+thead {
+    background-color: rgb(250, 235, 215, 0.7);
+}
+
+caption{
+    color: azure;
+}
+
+td, tbody, thead, tfoot{
+    border: 2px solid black;
+    margin: 3px 5px 3px 5px;
+    padding: 5px;
+}
+
+img {
+    display: inline-block;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+
+.Portugues {
+    background-color: rgba(143, 252, 2, 0.7);
+}
+.Matematica {
+    background-color: rgba(2, 176, 167, 0.7);
+}
+.Biologia {
+    background-color: rgba(199, 70, 47, 0.7);
+}
+.Fisica {
+    background-color: rgba(120, 11, 175, 0.645);
+}
+.LAB {
+    background-color: rgba(226, 43, 177, 0.7);
+}
+
+#E-F {
+    background-color: rgba(65, 65, 200, 0.7);
+}
+#Ingles {
+    background-color: rgb(67, 255, 76, 0.7);
+}
+#Historia{
+    background-color: rgb(255, 204, 0, 0.7);
+}
+#Artes {
+    background-color: rgb(165, 42, 95, 0.7);
+}
+#Geografia {
+    background-color: rgb(125, 250, 208, 0.7);
+}
+#Filosofia {
+    background-color: rgba(223, 255, 82, 0.7);
+}
+#Quimica {
+    background-color: rgba(222, 167, 248, 0.7);
+}
+#ALP {
+    background-color: rgb(255, 132, 132, 0.7);
+}
+#Intervalo {
+    background-color: rgba(221, 253, 254, 0.764);
+}
