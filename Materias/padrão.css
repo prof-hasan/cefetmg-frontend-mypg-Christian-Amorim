@@ -1,0 +1,89 @@
+html, body {
+    min-height: 100%;
+}
+
+#Math {
+    background-image: url(imgs-docs/Matfundo.png);
+}
+#Por {
+    background-image: url(imgs-docs/Por-fundo.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#His {
+    background-image: url(imgs-docs/His-fundo.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#Art {
+    background-image: url(imgs-docs/Artes.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#Fil {
+    background-image: url(imgs-docs/Filo.webp);
+}
+#Fis {
+    background-image: url(imgs-docs/Fis.webp);
+}
+#Bio {
+    background-image: url(imgs-docs/Bio.webp);
+}
+#Geo {
+    background-image: url(imgs-docs/Geo.webp);
+    
+}
+#Qui {
+    background-image: url(imgs-docs/Qui-fundo.webp);
+}
+#E_D {
+    background-image: url(imgs-docs/E_D-Fundo.webp);
+}
+#Ing {
+    background-image: url(imgs-docs/Ingles-fundo.webp);
+}
+.LAB {
+    background-image: url(imgs-docs/TEC-fundo.webp);
+}
+    
+.corpo {
+    width: 98%;
+    margin: 3px 5px ;
+    border: 2px solid black;
+    padding: 5px;
+    background-color: rgb(215, 250, 246, 0.7);
+    border-collapse: collapse;
+    display: inline-block;
+ }
+
+ h1, p {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    size: 10px;
+ }
+
+ h2 {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+
+.cronograma {
+    border: 2px solid black;
+    width: 40%;
+    padding: 10px 0.5%;
+    background-color: rgba(255, 255, 255);
+    float: right;
+}
+
+.Lista {
+    border: 2px solid black;
+    width: 40%;
+    padding: 0.5%;
+    background-color: rgba(255, 255, 255);
+    float: left;
+}
+
+dt {
+    text-align: center;
+}
+
